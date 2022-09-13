@@ -50,7 +50,7 @@ local kp =
         config: |||
           global:
             resolve_timeout: 10m
-            slack_api_url: 'https://hooks.slack.com/services/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'
+            slack_api_url: 'https://hooks.slack.com/services/FAKE'
           route:
               receiver: 'slack-notifications'
               group_by: [alertname, datacenter, app]
